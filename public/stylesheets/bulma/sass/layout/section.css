@@ -1,0 +1,81 @@
+/*
+Error: Undefined mixin 'desktop'.
+        on line 8 of public/stylesheets/sass/bulma/sass/layout/section.sass, in `desktop'
+        from line 8 of public/stylesheets/sass/bulma/sass/layout/section.sass
+
+3: $section-padding-large: 18rem 1.5rem !default
+4: 
+5: .section
+6:   padding: $section-padding
+7:   // Responsiveness
+8:   +desktop
+9:     // Sizes
+10:     &.is-medium
+11:       padding: $section-padding-medium
+12:     &.is-large
+13:       padding: $section-padding-large
+
+Backtrace:
+public/stylesheets/sass/bulma/sass/layout/section.sass:8:in `desktop'
+public/stylesheets/sass/bulma/sass/layout/section.sass:8
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:351:in `block in visit_mixin'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:98:in `block in with_mixin'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:98:in `with_mixin'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:349:in `visit_mixin'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block (2 levels) in visit_rule'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `map'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:433:in `block in visit_rule'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:431:in `visit_rule'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin.rb:82:in `update_stylesheets'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin.rb:54:in `check_for_updates'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/rack.rb:51:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/tempfile_reaper.rb:15:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/lint.rb:49:in `_call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/lint.rb:37:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/showexceptions.rb:24:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/commonlogger.rb:33:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sinatra-1.4.8/lib/sinatra/base.rb:219:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/chunked.rb:54:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/content_length.rb:15:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/handler/webrick.rb:88:in `service'
+/home/chris/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/home/chris/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/home/chris/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined mixin 'desktop'.\A         on line 8 of public/stylesheets/sass/bulma/sass/layout/section.sass, in `desktop'\A         from line 8 of public/stylesheets/sass/bulma/sass/layout/section.sass\A \A 3: $section-padding-large: 18rem 1.5rem !default\A 4: \A 5: .section\A 6:   padding: $section-padding\A 7:   // Responsiveness\A 8:   +desktop\A 9:     // Sizes\A 10:     &.is-medium\A 11:       padding: $section-padding-medium\A 12:     &.is-large\A 13:       padding: $section-padding-large"; }

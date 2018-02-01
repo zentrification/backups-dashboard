@@ -1,0 +1,9 @@
+# cp settings_example.yml settings.yml
+backups:
+  - name: backup1
+    type: rsync
+    directory: /path/to/backup
+
+  - name: backup2
+    type: rsync
+    directory: /path/to/backup

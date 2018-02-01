@@ -1,0 +1,71 @@
+/*
+Error: Undefined variable: "$black".
+        on line 3 of public/stylesheets/sass/bulma/sass/components/modal.sass
+
+1: $modal-z: 40 !default
+2: 
+3: $modal-background-background-color: rgba($black, 0.86) !default
+4: 
+5: $modal-content-width: 640px !default
+6: $modal-content-margin-mobile: 20px !default
+7: $modal-content-spacing-mobile: 160px !default
+8: $modal-content-spacing-tablet: 40px !default
+
+Backtrace:
+public/stylesheets/sass/bulma/sass/components/modal.sass:3
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/script/tree/variable.rb:49:in `_perform'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/script/tree/node.rb:58:in `perform'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/script/tree/funcall.rb:173:in `perform_arg'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/script/tree/funcall.rb:124:in `block in _perform'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/script/tree/funcall.rb:124:in `each'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/script/tree/funcall.rb:124:in `each_with_index'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/script/tree/funcall.rb:124:in `each'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/script/tree/funcall.rb:124:in `map'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/script/tree/funcall.rb:124:in `_perform'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/script/tree/node.rb:58:in `perform'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:471:in `visit_variable'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:79:in `block in with_base'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:115:in `with_frame'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/stack.rb:79:in `with_base'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:160:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:159:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/engine.rb:381:in `_render_with_sourcemap'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/engine.rb:298:in `render_with_sourcemap'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `each'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin.rb:82:in `update_stylesheets'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin.rb:54:in `check_for_updates'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sass-3.4.24/lib/sass/plugin/rack.rb:51:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/tempfile_reaper.rb:15:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/lint.rb:49:in `_call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/lint.rb:37:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/showexceptions.rb:24:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/commonlogger.rb:33:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/sinatra-1.4.8/lib/sinatra/base.rb:219:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/chunked.rb:54:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/content_length.rb:15:in `call'
+/home/chris/.rvm/gems/ruby-2.3.1/gems/rack-1.6.5/lib/rack/handler/webrick.rb:88:in `service'
+/home/chris/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/home/chris/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/home/chris/.rvm/rubies/ruby-2.3.1/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$black\".\A         on line 3 of public/stylesheets/sass/bulma/sass/components/modal.sass\A \A 1: $modal-z: 40 !default\A 2: \A 3: $modal-background-background-color: rgba($black, 0.86) !default\A 4: \A 5: $modal-content-width: 640px !default\A 6: $modal-content-margin-mobile: 20px !default\A 7: $modal-content-spacing-mobile: 160px !default\A 8: $modal-content-spacing-tablet: 40px !default"; }

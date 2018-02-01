@@ -1,0 +1,41 @@
+html
+  head
+    link href='/stylesheets/bulma/bulma.css' rel='stylesheet'
+    link href='/stylesheets/app.css' rel='stylesheet'
+    link href='https://fonts.googleapis.com/css?family=Roboto:400,700' rel='stylesheet'
+
+    title Backups Dashboard
+
+  body
+    section.hero.is-dark
+      .hero-body
+        .container
+          h1.title Backups Dashboard
+          h2.subtitle Xanax for rm -rf / anxiety
+
+    section.section
+      .container
+        table.table
+          thead
+            tr
+              th Name
+              th Type
+              th Directory
+              th Last Run
+              th
+              th Last Changed File
+          tbody
+            - @backups.each do |b|
+              - backup = Backup.new(b)
+              tr
+                td = backup.name
+                td = backup.type
+                td = backup.directory
+                td = backup.last_modified_at.strftime('%F %r')
+                td
+                  - if backup.last_modified_at > Time.now - 3600 * 48
+                    span.tag.is-success Succss
+                  - else
+                    span.tag.is-danger Failed
+                td = backup.last_changed_file
+
